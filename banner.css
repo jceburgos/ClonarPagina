@@ -1,0 +1,120 @@
+#banner{
+    
+    margin-top: 10px;
+    position: relative;
+    background: aquamarine;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+#banner .contenedor{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    
+}
+
+#banner h2{
+    margin-top: 50px;
+    width: 450px;
+    font-size: 60px;
+    color: rgb(49, 93, 136);
+}
+#banner p{
+    width: 400px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#banner .linea1{
+    padding: 20px;
+    width: 40%;
+    height: 50px;
+    margin-left:10px;
+    margin-top: 30px;
+    margin: 30px;
+    text-align: left;
+   
+    
+    
+}
+
+#banner .linea2{
+    padding: 20px;
+    width: 450px;
+    
+    margin-top: 90px;
+    
+}
+#banner .linea3{
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 70%;
+  height: 120px;
+    background: rgb(254, 254, 255);
+
+    
+}
+#boton_Submit {
+    text-align: center;
+    float:right;
+
+	margin-top:20px;
+   	
+   	border-style:none;
+    width: 120px;
+}
+.linea3 a{
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 30%;
+    height: 70%;
+    text-align: left;
+   
+
+    
+}
+.linea3 i{
+    
+    position:relative;
+    
+    left: 60px;
+   color: rgb(43, 3, 221);
+
+    
+}
+.linea2 i{
+    
+    position:relative;
+    
+   
+   color: rgb(43, 3, 221);
+
+    
+}
+#IcoCorazon{
+    
+   position:relative;
+    
+   color: rgb(235, 162, 79);
+       
+}
+#IcoStart
+{position:relative;
+    left: 60px;
+    color: rgb(235, 162, 79);
+}
+#SelVac
+{
+    position:relative;
+    left: 60px;
+}
+#irA_Submit{
+  color: aliceblue;
+    text-align: left;
+}

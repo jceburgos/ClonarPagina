@@ -1,0 +1,132 @@
+@import url(banner.css);
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+	
+	
+}
+header {
+	width: 100%;
+	height: 80px;
+	background: #ebebeb;
+	margin: auto;
+	border-radius: 20px;
+	z-index: 100;
+	top:0;
+	left:0;
+
+}
+section{
+	width:100%;
+	margin-top: 25px;
+
+}
+.contenedor{
+	width:95%;
+	height: auto;
+	
+	margin:auto ;
+	
+}
+#PaginaA img{
+	width:100%;
+	height: 100%;
+
+	
+}
+#PaginaB img{
+	width:100%;
+	height: 100%;
+
+	
+}
+header .contenedor{
+	width:95%;
+	height: 95%;
+	display: table;
+
+}
+
+/*botones*/
+
+.form_input:focus {
+	border: 3px solid #fff;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(247, 245, 245, 0.4);
+}
+.form_btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	
+	background: rgb(10, 12, 148);
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: .1s ease all;
+	background: #000046;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #1CB5E0, #d49929);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #2825b6, #4747d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#irA_registro_usuario {
+    color: #fff;
+	font-weight: bold;
+}
+
+.form_btn:hover {
+	box-shadow: 3px 0px 30px rgb(246, 248, 242);
+}
+
+/* ----- Estilos para index ------ */
+
+.horizontal_navbar {
+   animation-duration: 2s;
+   animation-name: slidein;
+ }
+ 
+ @keyframes slidein {
+   from {
+     margin-left: 100%;
+     width: 300%
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+
+ }
+ 
+.horizontal_navbar img {
+   	float:left;
+   	width: 150px;
+	height:30px;  
+	margin-top:25px;
+   	vertical-align:middle;
+   	border-style:none;
+   	box-sizing:content-box;
+   
+}
+.horizontal_navbar button {
+	float:right;
+	width: 10%;
+	margin-top:20px;
+   	vertical-align:middle;
+   	border-style:none;
+}
+
+
+
+
+
